@@ -1,6 +1,5 @@
 
 import React from "react";
-import styles from "./AgendaBadge.module.css";
 
 interface AgendaBadgeProps {
   number: number;
@@ -8,5 +7,5 @@ interface AgendaBadgeProps {
 
 
 export const AgendaBadge: React.FC<AgendaBadgeProps> = ({ number }) => {
-  return <div className={styles.badge}>{number}</div>;
+  return <div className='number' >{number}</div>;
 };
