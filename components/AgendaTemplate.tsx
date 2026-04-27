@@ -1,6 +1,6 @@
 import React from "react";
 import { AgendaCard, AgendaCardProps } from "./AgendaOrganismo";
-import styles from "./AgendaListTemplate.module.css";
+import styles from "./AgendaTemplate.module.css";
 
 export interface AgendaListTemplateProps {
   title?: string;

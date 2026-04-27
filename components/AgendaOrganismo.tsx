@@ -1,7 +1,7 @@
 import React from "react";
 import { AgendaCardHeader } from "./AgendaHeader";
 import { AgendaCardBody } from "./AgendaBody";
-import styles from "./AgendaCard.module.css";
+import styles from "./AgendaOrganismo.module.css";
 
 export interface AgendaCardProps {
   number: number;

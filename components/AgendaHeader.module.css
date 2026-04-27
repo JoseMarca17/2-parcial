@@ -1,0 +1,30 @@
+.header {
+  background-color: #E05252;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  flex: 1;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+}
+
+.ticketId {
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 600;
+  font-size: 13px;
+  font-family: 'DM Mono', monospace;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+}

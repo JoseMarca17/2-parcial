@@ -1,6 +1,6 @@
 import React from "react";
 import { AgendaBadge } from "./AgendaNumber";
-import styles from "./AgendaCardHeader.module.css";
+import styles from "./AgendaHeader.module.css";
 
 interface AgendaCardHeaderProps {
   number: number;
