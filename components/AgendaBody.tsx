@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./AgendaBody.module..css";
+import styles from "./AgendaBody.module.css";
 
 interface AgendaCardBodyProps {
   description: string;
