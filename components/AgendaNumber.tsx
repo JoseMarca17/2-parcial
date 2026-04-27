@@ -6,6 +6,7 @@ interface AgendaBadgeProps {
   number: number;
 }
 
+
 export const AgendaBadge: React.FC<AgendaBadgeProps> = ({ number }) => {
   return <div className={styles.badge}>{number}</div>;
 };
